@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.AccountWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    }
+.Acount_Header{
+    color:burlywood;
+    
+}
+.Account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+
+}
+.FullName{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; 
+}
+.Appcontainer{
+    display:flex;
+    height: 90vh;
+}
+.left{
+    flex:2;
+    background-color: rgb(26, 29, 29);
+    overflow-y: scroll;
+    position: sticky;
+}
+.center{
+    flex:5;
+}
+.right{
+    background-color: cornflowerblue;
+    flex: 2.5;
+}
