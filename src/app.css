@@ -31,7 +31,16 @@
 }
 .center{
     flex:5;
+    background-color: rgb(26, 29, 29);
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 .right{
     background-color: cornflowerblue;
     flex: 2.5;
