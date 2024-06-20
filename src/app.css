@@ -44,4 +44,9 @@
 .right{
     background-color: cornflowerblue;
     flex: 2.5;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+
+
 }
